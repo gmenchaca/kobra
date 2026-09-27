@@ -61,7 +61,7 @@ const smoothScroll = (id) => {
 				</a>
 			</template>
 			<template #end>
-				<div class="align-items-center gap-2 mobile-hidden">
+				<div class="hidden md:flex align-items-center">
 					<a href="https://calendar.app.google/fo1k6oEs5uafJchL9" target="new_blank">
 						<Button label="Asesoría Gratis" icon="pi pi-video" severity="help" rounded />
 					</a>
