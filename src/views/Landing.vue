@@ -72,19 +72,19 @@ const submitForm = () => {
             <div class="col-12 md:col-8 text-center md:text-left">
                 <section id="intro" style="margin-bottom:20px">
                     <h1>
-                    <span class="block textkobra-6xl font-bold mb-1">Una página web</span>
-                    <div class="textkobra-6xl text-primary font-bold mb-3">para crecer tu negocio</div>
+                    <span class="block textkobra-6xl font-bold mb-1">Obtén una Página Web</span>
+                    <div class="textkobra-6xl text-primary font-bold mb-3">Optimizada para Vender Más</div>
                     </h1>
-                    <h2 class="text-900 font-normal mb-2">Desde <strong>$5,000</strong> te ofrecemos:</h2>
+                    <h2 class="text-900 font-normal mb-2">Desde <strong>$5,000</strong></h2>
                     <br />
                     <p class="mt-0 mb-4 line-height-3" style="font-size: 20px;">
-                        <i class="pi pi-thumbs-up-fill"></i> 3 Opciones de diseño
+                        <i class="pi pi-thumbs-up-fill"></i> Aumenta tus ventas y presencia digital
                     </p>
                     <p class="mt-0 mb-4 line-height-3" style="font-size: 20px;">
-                        <i class="pi pi-thumbs-up-fill"></i> Funciones personalizadas
+                        <i class="pi pi-thumbs-up-fill"></i> Entrega rápida y diseño 100% responsivo (móvil y PC)
                     </p>
                     <p class="mt-0 mb-4 line-height-3" style="font-size: 20px;">
-                        <i class="pi pi-thumbs-up-fill"></i> Soporte gratis
+                        <i class="pi pi-thumbs-up-fill"></i> Dominio y Soporte incluido / Listo para pauta comercial
                     </p>
                     <a href="https://wa.me/c/5215650157964" target="new_blank" style="display:none">
                         <Button label="Catálogo" type="button" class="mr-3 p-button-raised"></Button>
@@ -115,7 +115,7 @@ const submitForm = () => {
                                 </template>
                                 <template #content="{ nextCallback }">
                                     <div class="flex flex-column gap-2 mx-auto" style="min-height: 16rem; max-width: 20rem;">
-                                        <h2>¿Qué uso le darás a tu sitio web?</h2>
+                                        <h2>Calcula el costo de tu sitio web gratis</h2>
                                         <div class="field p-fluid">
                                             <div v-for="category in categories" :key="category.key" class="flex align-items-center mb-2">
                                                 <RadioButton v-model="hiddenInput" :inputId="category.key" name="hiddenInput" :value="category.name" />
@@ -272,5 +272,8 @@ const submitForm = () => {
   100% {
     opacity: .5;
   }
+}
+h1 {
+    font-size: 2.2em!important;
 }
 </style>
