@@ -16,8 +16,8 @@
                             <h3 class="text-900 text-center my-5"> Web starter</h3>
                             <img src="/images/free.svg" class="w-10 h-10 mx-auto" alt="free" />
                             <div class="my-5 text-center">
-                                <span class="text-5xl font-bold mr-2 text-900">$2,500</span>
-                                <span class="text-600">en dos pagos</span>
+                                <span class="text-5xl font-bold mr-2 text-900">$5,000</span>
+                                
                                 <Button label="Saber Más"/>
                             </div>
                             <Divider class="w-full bg-surface-200"></Divider>
@@ -65,8 +65,8 @@
                             <h3 class="text-900 text-center my-5">Sitio web</h3>
                             <img src="/images/startup.svg" class="w-10 h-10 mx-auto" alt="free" />
                             <div class="my-5 text-center">
-                                <span class="text-5xl font-bold mr-2 text-900">$4,500</span>
-                                <span class="text-600">en dos pagos</span>
+                                <span class="text-5xl font-bold mr-2 text-900">$7,500</span>
+                                
                                 <Button label="Saber Más"/>
                             </div>
                             <Divider class="w-full bg-surface-200"></Divider>
@@ -137,8 +137,8 @@
                             <h3 class="text-900 text-center my-5">Tienda Online</h3>
                             <img src="/images/enterprise.svg" class="w-10 h-10 mx-auto" alt="startup" />
                             <div class="my-5 text-center">
-                                <span class="text-5xl font-bold mr-2 text-900">$7,500</span>
-                                <span class="text-600"> en dos pagos</span>
+                                <span class="text-5xl font-bold mr-2 text-900">$10,500</span>
+                                
                                 <Button label="Saber Más"/>
                             </div>
                             <Divider class="w-full bg-surface-200"></Divider>
@@ -215,7 +215,7 @@
                             <img src="/images/enterprise.svg" class="w-10 h-10 mx-auto" alt="enterprise" />
                             <div class="my-5 text-center">
                                 <span class="text-5xl font-bold mr-2 text-900">$10,999</span>
-                                <span class="text-600">en dos pagos</span>
+                                
                                 <Button label="Saber Más"/>
                             </div>
                             <Divider class="w-full bg-surface-200"></Divider>
