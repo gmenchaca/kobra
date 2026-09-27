@@ -20,22 +20,21 @@ const handleButtonClick = () => {
 const submitForm = () => {
   submitted.value = true;
 
-  // Creamos el FormData para la petición AJAX
-  const formData = new FormData();
+  // Cambiamos FormData por URLSearchParams para enviar en formato x-www-form-urlencoded
+  const params = new URLSearchParams();
   
-  // OBLIGATORIO: Debe coincidir con el atributo name del formulario registrado en Netlify
-  formData.append('form-name', 'kobra-cotizacion');
+  // OBLIGATORIO: Nombre registrado en el formulario de Netlify
+  params.append('form-name', 'kobra-cotizacion');
   
-  formData.append('name', name.value);
-  formData.append('email', email.value);
-  formData.append('phone', phone.value);
-  formData.append('opciones', checkedNames.value.join(', '));   
+  params.append('name', name.value);
+  params.append('email', email.value);
+  params.append('phone', phone.value);
+  params.append('opciones', checkedNames.value.join(', '));   
 
-  // Envío AJAX usando Fetch API
   fetch('/', {
     method: 'POST',
-    // Importante: No definir 'Content-Type', el navegador lo establece automáticamente para FormData
-    body: formData,
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: params.toString(),
   })
   .then((response) => {
     if (response.ok) {
